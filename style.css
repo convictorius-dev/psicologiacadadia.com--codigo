@@ -1,0 +1,62 @@
+/* Configuraciones básicas y tipografía */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    background-color: #f4f7f6; /* Un gris muy suave para descansar la vista */
+}
+
+/* El encabezado */
+header {
+    background-color: #2c3e50; /* Un azul oscuro elegante */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave para dar profundidad */
+    border-radius: 8px;
+}
+
+/* Títulos */
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Artículos del blog */
+article {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 5px solid #3498db; /* Una línea azul lateral para destacar */
+    background: #fafafa;
+}
+
+article h3 {
+    margin-top: 0;
+    color: #2980b9;
+}
